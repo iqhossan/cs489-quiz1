@@ -24,13 +24,13 @@ public class Main {
         List<Contact> contacts = new ArrayList<>();
         contacts.add(new Contact(101L, "David", "Sanger", "Argos LLC", "Sales Manager",
                 emaiList,phoneList));
-        contacts.add(new Contact(101L, "David", "Sanger", "Argos LLC", "Sales Manager",
+        contacts.add(new Contact(102L, "Carlos", "Jimenez", "Zappos", "Director",
                 null, null));
 
         emaiList.add(new Email("ali@bmi.com", "Work"));
         phoneList.add(new Phone("412-116-9988", "Work"));
 
-        contacts.add(new Contact(101L, "David", "Sanger", "Argos LLC", "Sales Manager",
+        contacts.add(new Contact(103L, "Ali", "Gafar", "BMI Services", "HR Manager",
                 emaiList, phoneList));
 
 
